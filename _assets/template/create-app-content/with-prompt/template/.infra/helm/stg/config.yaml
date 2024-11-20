@@ -1,0 +1,7 @@
+---
+inject: true
+to: .infra/helm/stg/config.yaml
+append: true
+skip_if: NEXT_PUBLIC_SERVICE_<%=h.changeCase.upperCase(serviceName)%>_API
+---
+      NEXT_PUBLIC_SERVICE_<%=h.changeCase.upperCase(serviceName)%>_API='https://geni.kitabisa.xyz/<%=serviceName%>'
