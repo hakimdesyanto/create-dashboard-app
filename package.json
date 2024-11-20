@@ -1,5 +1,5 @@
 {
-  "name": "create-dashboard-app",
+  "name": "@hakimdesyanto/create-dashboard-app",
   "version": "1.0.0",
   "description": "CLI tool to create a Next.js dashboard project",
   "bin": {
