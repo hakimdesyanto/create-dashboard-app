@@ -1,9 +1,9 @@
 {
-  "name": "my-create-dashboard-app",
-  "version": "1.1.0",
+  "name": "@hakimdesyanto/create-dashboard-app",
+  "version": "1.1.1",
   "description": "CLI tool to create a Next.js dashboard project",
   "bin": {
-    "create-dashboard-app": "./cli.js"
+    "create-dashboard-app": "cli.js"
   },
   "scripts": {
     "start": "node cli.js"
@@ -13,5 +13,13 @@
   },
   "devDependencies": {
     "hygen": "^6.2.11"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakimdesyanto/create-dashboard-app.git"
   }
 }
